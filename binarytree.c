@@ -13,6 +13,9 @@ typedef TreeNode *TreeNodePtr;
 
 void insertNode(TreeNodePtr *treePtr, int value);
 void inOrder(TreeNodePtr treePtr);
+void preOrder(TreeNodePtr treePtr);
+void postOrder(TreeNodePtr treePtr);
+
 int main(){
     TreeNodePtr rootPtr = NULL;
     puts("numbers generated:");
@@ -21,8 +24,12 @@ int main(){
         printf("%3i",item);
         insertNode(&rootPtr, item);
     }
-    puts("inOrder traversal:");
+    puts("\ninOrder traversal:");
     inOrder(rootPtr);
+    puts("\npreOrder traversal:");
+    preOrder(rootPtr);
+    puts("\npostOrder traversal");
+    postOrder(rootPtr);
     return 0;
 }
 
@@ -56,5 +63,21 @@ void inOrder(TreeNodePtr treePtr){
         inOrder(treePtr->leftPtr);
         printf(" %3i ",treePtr->data);
         inOrder(treePtr->rightPtr);
+    }
+}
+
+void postOrder(TreeNodePtr treePtr){
+    if(treePtr!=NULL){
+    postOrder(treePtr->leftPtr);
+    postOrder(treePtr->rightPtr);
+    printf(" %3i ",treePtr->data);
+    }
+}
+
+void preOrder(TreeNodePtr treePtr){
+    if(treePtr!=NULL){
+        printf(" %3i ",treePtr->data);
+        preOrder(treePtr->leftPtr);
+        preOrder(treePtr->rightPtr);
     }
 }
