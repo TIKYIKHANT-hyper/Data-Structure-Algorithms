@@ -112,7 +112,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "arrayptr.c",
+			"path" : "bubblesort.c",
 			"sourceGroupIndex" : 0
 		}
 	],

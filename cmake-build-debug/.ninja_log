@@ -1,16 +1,16 @@
 # ninja log v5
 0	182	7283476591137596	CMakeFiles/Data_Structure_Algorithms.dir/binarytreetest.c.obj	636a1faa0bb486af
+9	366	7320713170378568	build.ninja	cf5923a843073c69
 3	184	7283476591138599	CMakeFiles/Data_Structure_Algorithms.dir/binarytree.c.obj	52160468567f0698
-9	366	7319907910447446	build.ninja	cf5923a843073c69
-14	186	7283476591147599	CMakeFiles/Data_Structure_Algorithms.dir/stack.c.obj	26c39d42c8a0666e
 11	185	7283476591138599	CMakeFiles/Data_Structure_Algorithms.dir/queue.c.obj	b61b9cb06610486a
-7	186	7283476591147599	CMakeFiles/Data_Structure_Algorithms.dir/linkedlist.c.obj	c973011249e6a4ca
+14	186	7283476591147599	CMakeFiles/Data_Structure_Algorithms.dir/stack.c.obj	26c39d42c8a0666e
 1	51	7319845135230594	CMakeFiles/Data_Structure_Algorithms.dir/test.c.obj	5ff4124efaee4851
-1	73	7319856810424024	Data_Structure_Algorithms.exe	b758bd2056206b68
-2	55	7319856615966357	CMakeFiles/Data_Structure_Algorithms.dir/passbyref.c.obj	f60065ddd65775df
-0	68	7319917833770691	CMakeFiles/Data_Structure_Algorithms.dir/arrayptr.c.obj	8b14e21905fa8bb2
-69	139	7319917834445955	Data_Structure_Algorithms.exe	d858e1a6265447
-2	57	7319926592488232	CMakeFiles/Data_Structure_Algorithms.dir/arrayptr.c.obj	8b14e21905fa8bb2
-57	126	7319926593148989	Data_Structure_Algorithms.exe	d858e1a6265447
-2	53	7319926741572662	CMakeFiles/Data_Structure_Algorithms.dir/arrayptr.c.obj	8b14e21905fa8bb2
+7	186	7283476591147599	CMakeFiles/Data_Structure_Algorithms.dir/linkedlist.c.obj	c973011249e6a4ca
 53	122	7319926742223624	Data_Structure_Algorithms.exe	d858e1a6265447
+2	55	7319856615966357	CMakeFiles/Data_Structure_Algorithms.dir/passbyref.c.obj	f60065ddd65775df
+2	53	7319926741572662	CMakeFiles/Data_Structure_Algorithms.dir/arrayptr.c.obj	8b14e21905fa8bb2
+1	90	7320713170378568	build.ninja	cf5923a843073c69
+0	137	7320713171901185	CMakeFiles/Data_Structure_Algorithms.dir/bubblesort.c.obj	dc9e77ee27e64817
+137	327	7320713173779008	Data_Structure_Algorithms.exe	f0c2dc11c4c9b7d6
+1	47	7320715222211365	CMakeFiles/Data_Structure_Algorithms.dir/bubblesort.c.obj	dc9e77ee27e64817
+47	107	7320715222792480	Data_Structure_Algorithms.exe	f0c2dc11c4c9b7d6

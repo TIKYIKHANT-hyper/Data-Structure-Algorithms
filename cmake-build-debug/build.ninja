@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/TIKYI/Data-Structure-Algorithms/cmake-build-debu
 
 build cmake_object_order_depends_target_Data_Structure_Algorithms: phony || CMakeFiles/Data_Structure_Algorithms.dir
 
-build CMakeFiles/Data_Structure_Algorithms.dir/arrayptr.c.obj: C_COMPILER__Data_Structure_Algorithms_unscanned_Debug C$:/Users/TIKYI/Data-Structure-Algorithms/arrayptr.c || cmake_object_order_depends_target_Data_Structure_Algorithms
-  DEP_FILE = CMakeFiles\Data_Structure_Algorithms.dir\arrayptr.c.obj.d
+build CMakeFiles/Data_Structure_Algorithms.dir/bubblesort.c.obj: C_COMPILER__Data_Structure_Algorithms_unscanned_Debug C$:/Users/TIKYI/Data-Structure-Algorithms/bubblesort.c || cmake_object_order_depends_target_Data_Structure_Algorithms
+  DEP_FILE = CMakeFiles\Data_Structure_Algorithms.dir\bubblesort.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   INCLUDES = -IC:/Users/TIKYI/Data-Structure-Algorithms/.
   OBJECT_DIR = CMakeFiles\Data_Structure_Algorithms.dir
@@ -64,7 +64,7 @@ build CMakeFiles/Data_Structure_Algorithms.dir/arrayptr.c.obj: C_COMPILER__Data_
 #############################################
 # Link the executable Data_Structure_Algorithms.exe
 
-build Data_Structure_Algorithms.exe: C_EXECUTABLE_LINKER__Data_Structure_Algorithms_Debug CMakeFiles/Data_Structure_Algorithms.dir/arrayptr.c.obj
+build Data_Structure_Algorithms.exe: C_EXECUTABLE_LINKER__Data_Structure_Algorithms_Debug CMakeFiles/Data_Structure_Algorithms.dir/bubblesort.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Data_Structure_Algorithms.dir
