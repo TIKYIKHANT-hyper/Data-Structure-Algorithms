@@ -1,3 +1,3 @@
-C:/Users/TIKYI/Data-Structure-Algorithms/cmake-build-debug/CMakeFiles/Data_Structure_Algorithms.dir
-C:/Users/TIKYI/Data-Structure-Algorithms/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/TIKYI/Data-Structure-Algorithms/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/tikyiwin/CLionProjects/Data-Structure-Algorithms/cmake-build-debug/CMakeFiles/Data_Structure_Algorithms.dir
+C:/Users/tikyiwin/CLionProjects/Data-Structure-Algorithms/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/tikyiwin/CLionProjects/Data-Structure-Algorithms/cmake-build-debug/CMakeFiles/rebuild_cache.dir
