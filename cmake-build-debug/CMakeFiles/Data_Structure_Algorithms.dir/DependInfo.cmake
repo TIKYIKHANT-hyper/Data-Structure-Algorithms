@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/tikyiwin/CLionProjects/Data-Structure-Algorithms/bubblesort.c" "CMakeFiles/Data_Structure_Algorithms.dir/bubblesort.c.obj" "gcc" "CMakeFiles/Data_Structure_Algorithms.dir/bubblesort.c.obj.d"
+  "C:/Users/tikyiwin/CLionProjects/Data-Structure-Algorithms/vowelcounter.c" "CMakeFiles/Data_Structure_Algorithms.dir/vowelcounter.c.obj" "gcc" "CMakeFiles/Data_Structure_Algorithms.dir/vowelcounter.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

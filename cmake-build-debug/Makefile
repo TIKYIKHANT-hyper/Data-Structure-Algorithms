@@ -128,29 +128,29 @@ Data_Structure_Algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data_Structure_Algorithms.dir\build.make CMakeFiles/Data_Structure_Algorithms.dir/build
 .PHONY : Data_Structure_Algorithms/fast
 
-bubblesort.obj: bubblesort.c.obj
-.PHONY : bubblesort.obj
+vowelcounter.obj: vowelcounter.c.obj
+.PHONY : vowelcounter.obj
 
 # target to build an object file
-bubblesort.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data_Structure_Algorithms.dir\build.make CMakeFiles/Data_Structure_Algorithms.dir/bubblesort.c.obj
-.PHONY : bubblesort.c.obj
+vowelcounter.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data_Structure_Algorithms.dir\build.make CMakeFiles/Data_Structure_Algorithms.dir/vowelcounter.c.obj
+.PHONY : vowelcounter.c.obj
 
-bubblesort.i: bubblesort.c.i
-.PHONY : bubblesort.i
+vowelcounter.i: vowelcounter.c.i
+.PHONY : vowelcounter.i
 
 # target to preprocess a source file
-bubblesort.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data_Structure_Algorithms.dir\build.make CMakeFiles/Data_Structure_Algorithms.dir/bubblesort.c.i
-.PHONY : bubblesort.c.i
+vowelcounter.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data_Structure_Algorithms.dir\build.make CMakeFiles/Data_Structure_Algorithms.dir/vowelcounter.c.i
+.PHONY : vowelcounter.c.i
 
-bubblesort.s: bubblesort.c.s
-.PHONY : bubblesort.s
+vowelcounter.s: vowelcounter.c.s
+.PHONY : vowelcounter.s
 
 # target to generate assembly for a file
-bubblesort.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data_Structure_Algorithms.dir\build.make CMakeFiles/Data_Structure_Algorithms.dir/bubblesort.c.s
-.PHONY : bubblesort.c.s
+vowelcounter.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data_Structure_Algorithms.dir\build.make CMakeFiles/Data_Structure_Algorithms.dir/vowelcounter.c.s
+.PHONY : vowelcounter.c.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Data_Structure_Algorithms
-	@echo ... bubblesort.obj
-	@echo ... bubblesort.i
-	@echo ... bubblesort.s
+	@echo ... vowelcounter.obj
+	@echo ... vowelcounter.i
+	@echo ... vowelcounter.s
 .PHONY : help
 
 
