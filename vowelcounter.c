@@ -5,7 +5,7 @@ int vowelCheck(char *str, char *upstr);
 int getLenArrStr(char *str);
 
 int main() {
-    char x[60] = "Apple,Orange,Lemon,pineapple,avocado.";
+    char x[60] = "apple,orange,lemon,pineapple,avocado.";
     char test[100];
     int res = vowelCheck(x, test);
     printf("Result: %s\n", test);
