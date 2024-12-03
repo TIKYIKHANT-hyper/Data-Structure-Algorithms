@@ -68,29 +68,29 @@ include CMakeFiles/Data_Structure_Algorithms.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Data_Structure_Algorithms.dir/flags.make
 
-CMakeFiles/Data_Structure_Algorithms.dir/vowelcounter.c.obj: CMakeFiles/Data_Structure_Algorithms.dir/flags.make
-CMakeFiles/Data_Structure_Algorithms.dir/vowelcounter.c.obj: CMakeFiles/Data_Structure_Algorithms.dir/includes_C.rsp
-CMakeFiles/Data_Structure_Algorithms.dir/vowelcounter.c.obj: C:/Users/tikyiwin/CLionProjects/Data-Structure-Algorithms/vowelcounter.c
-CMakeFiles/Data_Structure_Algorithms.dir/vowelcounter.c.obj: CMakeFiles/Data_Structure_Algorithms.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\tikyiwin\CLionProjects\Data-Structure-Algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Data_Structure_Algorithms.dir/vowelcounter.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Data_Structure_Algorithms.dir/vowelcounter.c.obj -MF CMakeFiles\Data_Structure_Algorithms.dir\vowelcounter.c.obj.d -o CMakeFiles\Data_Structure_Algorithms.dir\vowelcounter.c.obj -c C:\Users\tikyiwin\CLionProjects\Data-Structure-Algorithms\vowelcounter.c
+CMakeFiles/Data_Structure_Algorithms.dir/test.c.obj: CMakeFiles/Data_Structure_Algorithms.dir/flags.make
+CMakeFiles/Data_Structure_Algorithms.dir/test.c.obj: CMakeFiles/Data_Structure_Algorithms.dir/includes_C.rsp
+CMakeFiles/Data_Structure_Algorithms.dir/test.c.obj: C:/Users/tikyiwin/CLionProjects/Data-Structure-Algorithms/test.c
+CMakeFiles/Data_Structure_Algorithms.dir/test.c.obj: CMakeFiles/Data_Structure_Algorithms.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\tikyiwin\CLionProjects\Data-Structure-Algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Data_Structure_Algorithms.dir/test.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Data_Structure_Algorithms.dir/test.c.obj -MF CMakeFiles\Data_Structure_Algorithms.dir\test.c.obj.d -o CMakeFiles\Data_Structure_Algorithms.dir\test.c.obj -c C:\Users\tikyiwin\CLionProjects\Data-Structure-Algorithms\test.c
 
-CMakeFiles/Data_Structure_Algorithms.dir/vowelcounter.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Data_Structure_Algorithms.dir/vowelcounter.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\tikyiwin\CLionProjects\Data-Structure-Algorithms\vowelcounter.c > CMakeFiles\Data_Structure_Algorithms.dir\vowelcounter.c.i
+CMakeFiles/Data_Structure_Algorithms.dir/test.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Data_Structure_Algorithms.dir/test.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\tikyiwin\CLionProjects\Data-Structure-Algorithms\test.c > CMakeFiles\Data_Structure_Algorithms.dir\test.c.i
 
-CMakeFiles/Data_Structure_Algorithms.dir/vowelcounter.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Data_Structure_Algorithms.dir/vowelcounter.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\tikyiwin\CLionProjects\Data-Structure-Algorithms\vowelcounter.c -o CMakeFiles\Data_Structure_Algorithms.dir\vowelcounter.c.s
+CMakeFiles/Data_Structure_Algorithms.dir/test.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Data_Structure_Algorithms.dir/test.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\tikyiwin\CLionProjects\Data-Structure-Algorithms\test.c -o CMakeFiles\Data_Structure_Algorithms.dir\test.c.s
 
 # Object files for target Data_Structure_Algorithms
 Data_Structure_Algorithms_OBJECTS = \
-"CMakeFiles/Data_Structure_Algorithms.dir/vowelcounter.c.obj"
+"CMakeFiles/Data_Structure_Algorithms.dir/test.c.obj"
 
 # External object files for target Data_Structure_Algorithms
 Data_Structure_Algorithms_EXTERNAL_OBJECTS =
 
-Data_Structure_Algorithms.exe: CMakeFiles/Data_Structure_Algorithms.dir/vowelcounter.c.obj
+Data_Structure_Algorithms.exe: CMakeFiles/Data_Structure_Algorithms.dir/test.c.obj
 Data_Structure_Algorithms.exe: CMakeFiles/Data_Structure_Algorithms.dir/build.make
 Data_Structure_Algorithms.exe: CMakeFiles/Data_Structure_Algorithms.dir/linkLibs.rsp
 Data_Structure_Algorithms.exe: CMakeFiles/Data_Structure_Algorithms.dir/objects1.rsp

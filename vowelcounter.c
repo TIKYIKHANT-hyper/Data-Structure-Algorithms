@@ -23,11 +23,11 @@ int getLenArrStr(char *str) {
 }
 
 int isVowel(char c) {
-    if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z')) {
-        if (c >= 'A' && c <= 'Z') {
-            c = c + 32; // Convert uppercase to lowercase
+    if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122)) {
+        if (c >= 65 && c <= 90) {
+            c = c + 32;
         }
-        return (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u');
+        return (c == 97 || c == 101 || c == 105 || c == 111 || c == 117);
     }
     return 0;
 }
@@ -68,6 +68,5 @@ int vowelCheck(char *str, char *upstr) {
     } else {
         *upstr = '\0';
     }
-
     return wordCount;
 }

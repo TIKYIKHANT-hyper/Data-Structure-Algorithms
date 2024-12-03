@@ -128,29 +128,29 @@ Data_Structure_Algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data_Structure_Algorithms.dir\build.make CMakeFiles/Data_Structure_Algorithms.dir/build
 .PHONY : Data_Structure_Algorithms/fast
 
-vowelcounter.obj: vowelcounter.c.obj
-.PHONY : vowelcounter.obj
+test.obj: test.c.obj
+.PHONY : test.obj
 
 # target to build an object file
-vowelcounter.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data_Structure_Algorithms.dir\build.make CMakeFiles/Data_Structure_Algorithms.dir/vowelcounter.c.obj
-.PHONY : vowelcounter.c.obj
+test.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data_Structure_Algorithms.dir\build.make CMakeFiles/Data_Structure_Algorithms.dir/test.c.obj
+.PHONY : test.c.obj
 
-vowelcounter.i: vowelcounter.c.i
-.PHONY : vowelcounter.i
+test.i: test.c.i
+.PHONY : test.i
 
 # target to preprocess a source file
-vowelcounter.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data_Structure_Algorithms.dir\build.make CMakeFiles/Data_Structure_Algorithms.dir/vowelcounter.c.i
-.PHONY : vowelcounter.c.i
+test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data_Structure_Algorithms.dir\build.make CMakeFiles/Data_Structure_Algorithms.dir/test.c.i
+.PHONY : test.c.i
 
-vowelcounter.s: vowelcounter.c.s
-.PHONY : vowelcounter.s
+test.s: test.c.s
+.PHONY : test.s
 
 # target to generate assembly for a file
-vowelcounter.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data_Structure_Algorithms.dir\build.make CMakeFiles/Data_Structure_Algorithms.dir/vowelcounter.c.s
-.PHONY : vowelcounter.c.s
+test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Data_Structure_Algorithms.dir\build.make CMakeFiles/Data_Structure_Algorithms.dir/test.c.s
+.PHONY : test.c.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Data_Structure_Algorithms
-	@echo ... vowelcounter.obj
-	@echo ... vowelcounter.i
-	@echo ... vowelcounter.s
+	@echo ... test.obj
+	@echo ... test.i
+	@echo ... test.s
 .PHONY : help
 
 

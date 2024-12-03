@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Data_Structure_Algorithms.dir/vowelcounter.c.obj"
-  "CMakeFiles/Data_Structure_Algorithms.dir/vowelcounter.c.obj.d"
+  "CMakeFiles/Data_Structure_Algorithms.dir/test.c.obj"
+  "CMakeFiles/Data_Structure_Algorithms.dir/test.c.obj.d"
   "Data_Structure_Algorithms.exe"
   "Data_Structure_Algorithms.exe.manifest"
   "Data_Structure_Algorithms.pdb"
